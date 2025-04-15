@@ -1,0 +1,93 @@
+PYTHON ASSIGNMENT WEEK 2
+
+Create an empty list called my_list.
+Append the following elements to my_list: 10, 20, 30, 40.
+Insert the value 15 at the second position in the list.
+Extend my_list with another list: [50, 60, 70].
+Remove the last element from my_list.
+Sort my_list in ascending order.
+Find and print the index of the value 30 in my_list.
+
+Let's break down your Python assignment step by step:
+
+Create an empty list called my_list:
+
+my_list = []
+
+ This creates an empty list named my_list.
+
+Append the following elements to my_list: 10, 20, 30, 40.
+
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+
+This will add the numbers 10, 20, 30, and 40 to the end of my_list. After this step, my_list will look like this:
+[10, 20, 30, 40]
+
+Insert the value 15 at the second position in the list.
+
+my_list.insert(1, 15)
+The insert() method adds an element at the specified position. Here, the value 15 is inserted at the second position (index 1). After this step, my_list will look like:
+
+[10, 15, 20, 30, 40]
+
+Extend my_list with another list: [50, 60, 70].
+
+my_list.extend([50, 60, 70])
+
+The extend() method adds all the elements from another list to my_list. After this step, my_list will look like:
+[10, 15, 20, 30, 40, 50, 60, 70]
+
+
+Remove the last element from my_list.
+
+my_list.pop()
+
+The pop() method removes the last element from the list. After this step, my_list will look like:
+
+[10, 15, 20, 30, 40, 50, 60]
+
+Sort my_list in ascending order.
+
+my_list.sort()
+
+The sort() method sorts the list in ascending order. After this step, my_list will look like:
+
+[10, 15, 20, 30, 40, 50, 60]
+
+Find and print the index of the value 30 in my_list.
+
+index_of_30 = my_list.index(30)
+print(index_of_30)
+
+The index() method returns the index of the first occurrence of the specified value. It will print 3 because the value 30 is at index 3.
+
+# Step 1: Create an empty list
+my_list = []
+
+# Step 2: Append elements
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+
+# Step 3: Insert 15 at the second position
+my_list.insert(1, 15)
+
+# Step 4: Extend the list with another list
+my_list.extend([50, 60, 70])
+
+# Step 5: Remove the last element
+my_list.pop()
+
+# Step 6: Sort the list in ascending order
+my_list.sort()
+
+# Step 7: Find and print the index of 30
+index_of_30 = my_list.index(30)
+print(index_of_30)
+
+Expected Output:
+3
